@@ -1,5 +1,5 @@
 # Prox-Mac
-My notes on creating a hackintosh on an original Mac Pro A1186
+My notes on creating a "reverse Hackintosh" on an original Mac Pro A1186
 
 1) First boot - got only a flashing white power light.
    - Google tells me to reseat the memory
@@ -23,3 +23,4 @@ My notes on creating a hackintosh on an original Mac Pro A1186
 14) reboot to go to new IP
 15) echo "deb [arch=amd64] http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > /etc/apt/sources.list.d/pve-install-repo.list
 16) apt update && full-upgrade
+17) apt install pve-kernel-6.2
